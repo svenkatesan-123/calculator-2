@@ -22,7 +22,7 @@ const statuscheck=()=>{
         for(let i=0;i<5;i++){
             button3[i].style.animation="color-change1 1s infinite";
         }
-        for(let i=0;i<15;i++){
+        for(let i=0;i<button1.length;i++){
             button1[i].style.animation="color-change2 1s infinite";
         }
 
@@ -46,7 +46,7 @@ const statuscheck=()=>{
         for(let i=0;i<5;i++){
             button3[i].style.animation="none";
         }
-        for(let i=0;i<15;i++){
+        for(let i=0;i<button1.length;i++){
             button1[i].style.animation="none";
         }
 
