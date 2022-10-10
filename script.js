@@ -38,15 +38,16 @@ const statuscheck=()=>{
         display.value = ""; 
         display.style.background="#2e2e2e";
         bracketflag=0;
-        for(let i=0;i<15;i++){
-            button1[i].style.animation="none";
-        }
+        
         for(let i=0;i<12;i++){
             button2[i].style.animation="none";
             button2[i].style.boxShadow="none";
         }
         for(let i=0;i<5;i++){
             button3[i].style.animation="none";
+        }
+        for(let i=0;i<15;i++){
+            button1[i].style.animation="none";
         }
 
      }
